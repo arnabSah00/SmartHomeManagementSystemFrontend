@@ -1,0 +1,33 @@
+.signup-input-container {
+    position: relative;
+    margin-top: 40px; /* Increased margin-top to create space between input containers */
+  }
+  
+  .signup-input-container .form-label {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    transition: all 0.2s ease-in-out;
+    opacity: 0;
+    font-size: 14px;
+    pointer-events: none; /* Prevents interaction with the label */
+  }
+  
+  .signup-input-container .form-control {
+    padding-top: 10px; /* Ensure some padding inside the input for better UX */
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .signup-input-container .form-control:focus + .form-label,
+  .signup-input-container .form-label.focused {
+    top: -20px; /* Move the label up to create space */
+    opacity: 1;
+    font-size: 16px; /* Increased size for the label */
+  }
+  
+  .signup-input-container .form-control:focus,
+  .signup-input-container .form-control.focused {
+    margin-top: 10px; /* Moves the input down when focused */
+  }
+  

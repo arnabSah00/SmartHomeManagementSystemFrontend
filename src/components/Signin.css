@@ -1,0 +1,91 @@
+.popup{
+    position: relative;
+    padding: 20px 30px;
+    background-color: #fff;
+    /* box-shadow: 2px 2px 5px 5px rgb(199, 193, 193); */
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+      
+  }
+  .form{
+    margin: 10px;
+    border-bottom: .8px solid black;
+  }
+  .popup .sign-in-close-btn {
+    position:absolute;
+    right: 20px;
+    top: 10px;
+    cursor: pointer;
+    font-size: 25px;
+  }
+    
+  .popup .form h2 ,.new-account-create .sign-up-title{
+    text-align: center;
+    color: #222;
+    margin: 10px 0px 20px;
+    font-size: 25px;
+  }
+    
+  .popup .form .form-element{
+    margin: 15px 0px;
+  }
+  .popup .form .form-element label{
+    font-size: 14px;
+    color: #222;
+  }
+    
+  .popup .form .form-element input[type="text"],
+  .popup .form .form-element input[type="password"]{
+    margin-top: 5px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+  }
+  
+  .popup .form .form-element input[type="checkbox"]{
+    margin-right: 5px;
+  }
+    
+  .popup .form .form-element button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background-color:#004444;
+    color: #f5f5f5;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+    
+  .popup .form .form-element a{
+    display: block;
+    text-align: right;
+    font-size: 18px;
+    color: #1a79ca;
+    text-decoration: none;
+    font-weight: 600;
+  }
+    
+  .new-account-create .create-account{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background-color: #1a79ca;
+    color: #f5f5f5;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  

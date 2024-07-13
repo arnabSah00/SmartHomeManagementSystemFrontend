@@ -1,38 +1,37 @@
-.App {
-  text-align: center;
+/* for theme chenge */
+.dark-mode-component{
+    color: white;
+    background-color: #191919;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.light-mode-component{
+    background-color: #e4e5f1;
+    color: black;
+}
+  
+.dark-mode-component .dropdown-item:hover {
+    background-color: #343a40; /* Darken the item background */
+    color: white; /* Change text color to white */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body.default-background {
+    background-color: #fafafa;
+    color: black;
+}
+  
+body.dark-background {
+    background-color: rgb(18,18,18);
+    color: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  
+.main-content {
+   padding-top: 60px; 
 }

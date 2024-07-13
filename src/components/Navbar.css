@@ -1,0 +1,72 @@
+.btn-logo{
+    background-color: transparent;
+    border: none;
+}
+
+.text-logo{
+    font-size: 25px;
+}
+.icon-bold {
+    font-weight: 900; /* Bolder font weight */
+    font-size: 1.5em;
+}
+
+
+/* for Home page */
+.smarthome-container {
+  text-align: center;
+  padding: 50px;
+}
+
+.smarthome-container.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.feature-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.feature-card.dark-card {
+  background-color: #444;
+  color: #fff;
+  border: 1px solid #555;
+}
+
+.feature-card h2 {
+  margin-top: 0;
+}
+
+.feature-card p {
+  flex-grow: 1;
+}
+
+.feature-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.feature-button:hover {
+  background-color: #0056b3;
+}

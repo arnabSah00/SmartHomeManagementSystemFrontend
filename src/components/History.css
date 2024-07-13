@@ -1,0 +1,36 @@
+.history-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .history-container.dark {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .history-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .history-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .history-item.dark {
+    background-color: #444;
+    border-color: #555;
+  }
+  
+  .history-item p {
+    margin: 5px 0;
+  }
+  
+  .history-item p strong {
+    font-weight: bold;
+  }
